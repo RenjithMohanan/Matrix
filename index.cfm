@@ -5,6 +5,10 @@
             include "/controllers/main/mainAction.cfm";
         break;
 
+        case "encrypt":
+            include "/controllers/encryptorAction.cfm";
+        break;
+
         // The provided event could not be matched.
         default:
            // throw( type="InvalidEvent" );
